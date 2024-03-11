@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">LabExam2</string>
+
+    <string name="i_want_to">I want to</string>
+    <string name="please_select_one_of_the_above">please select one of the above</string>
+
+    <string name="select_item_type">Select Item Type</string>
+
+    <string name="button">Next</string>
+
+    <string name="document">Document</string>
+    <string name="food">Food</string>
+    <string name="groceries">Groceries</string>
+    <string name="business_supplies">Business Supplies</string>
+    <string name="clothes">Clothes</string>
+    <string name="household_goods">Household Goods</string>
+    <string name="electronic">Electronic</string>
+    <string name="sport_goods">Sport Goods</string>
+    <string name="other">Other</string>
+
+    <string name="notification_button_description">Notification</string>
+    <string name="profile_button_description">Profile</string>
+    <string name="home_button_description">Home</string>
+    <string name="activity_button_description">Activity</string>
+
+    <string name="receive_package_description">Receive Package</string>
+    <string name="send_package_description">Send Package</string>
+
+    <string name="male">male</string>
+    <string name="birthday">2001–12-30</string>
+    <string name="mobile">765300874</string>
+    <string name="email">harshamalmasinghe2001@gmail.com</string>
+    <string name="name">Harshamal Masinghe</string>
+
+    <string name="your_info">Your info</string>
+    <string name="profile">Profile</string>
+    <string name="logout">LOGOUT</string>
+
+    <string name="notification">Notification</string>
+    <string name="no_message_s_to_show">No message(s) to show</string>
+    <string name="key_fetures">Your solution for seamless package delivery. Effortless sending and receiving, mad simple with SwiftParcel</string>
+    <string name="wllcome">Wllcome to SwiftParcel</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="talk">You\'re good to go !</string>
+    <string name="todo6">TODO</string>
+    <string name="todo03">TODO</string>
+
+
+</resources>
