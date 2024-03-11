@@ -1,6 +1,8 @@
 package com.example.labexam2
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,11 @@ class LoginUI : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val btnlogin = findViewById<Button>(R.id.btnlogin)
+        btnlogin.setOnClickListener {
+            val intent = Intent(this, HomeUI::class.java)
+            startActivity(intent)
+        }
+
     }
 }

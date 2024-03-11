@@ -23,16 +23,38 @@ class HomeUI : AppCompatActivity() {
 
         val btnSendPkg = findViewById<ImageButton>(R.id.btnSendPkg)
         btnSendPkg.setOnClickListener {
-            // Create an Intent to navigate to the ItemTypeUI activity
+
             val intent = Intent(this, ItemTypeUI::class.java)
-            startActivity(intent) // Start the ItemTypeUI activity
+            startActivity(intent)
         }
 
         val btnRecievePakage = findViewById<ImageButton>(R.id.btnRecievePkg)
         btnRecievePakage.setOnClickListener {
-            // Create an Intent to navigate to the ItemTypeUI activity
+
             val intent = Intent(this, ItemTypeUI::class.java)
-            startActivity(intent) // Start the ItemTypeUI activity
+            startActivity(intent)
+        }
+
+        //navigation bar
+        val btnHome = findViewById<ImageButton>(R.id.btnHome)
+        btnHome.setOnClickListener {
+
+            val intent = Intent(this, HomeUI::class.java)
+            startActivity(intent)
+        }
+
+        val btnNotification = findViewById<ImageButton>(R.id.btnNotification)
+        btnNotification.setOnClickListener {
+
+            val intent = Intent(this, NotificationUI::class.java)
+            startActivity(intent)
+        }
+
+        val btnProfile = findViewById<ImageButton>(R.id.btnProfile)
+        btnProfile.setOnClickListener {
+
+            val intent = Intent(this, ProfileUI::class.java)
+            startActivity(intent)
         }
     }
 }

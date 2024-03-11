@@ -1,10 +1,15 @@
 package com.example.labexam2
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.widget.Button
+
+
+
 
 class OnboardingUI : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +21,12 @@ class OnboardingUI : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        
+
+        val btstart = findViewById<Button>(R.id.btstart)
+        btstart.setOnClickListener {
+            val intent = Intent(this, LoginUI::class.java)
+            startActivity(intent)
+        }
+
     }
 }

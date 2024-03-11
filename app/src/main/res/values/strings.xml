@@ -52,6 +52,7 @@
     <string name="talk">You\'re good to go !</string>
     <string name="todo6">TODO</string>
     <string name="todo03">TODO</string>
+    <string name="todo_text">TODO</string>
 
 
 </resources>

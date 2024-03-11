@@ -18,7 +18,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.305"
-        tools:srcCompat="@drawable/logo" />
+        tools:srcCompat="@drawable/logo"
+        android:contentDescription="@string/todo_text" />
 
     <TextView
         android:id="@+id/textView5"
@@ -51,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btstart"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
