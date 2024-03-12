@@ -18,6 +18,27 @@ class ItemTypeUI : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        //navigation bar
+        val btnHome = findViewById<ImageButton>(R.id.btnHome)
+        btnHome.setOnClickListener {
+
+            val intent = Intent(this, HomeUI::class.java)
+            startActivity(intent)
+        }
+
+        val btnNotification = findViewById<ImageButton>(R.id.btnNotification)
+        btnNotification.setOnClickListener {
+
+            val intent = Intent(this, NotificationUI::class.java)
+            startActivity(intent)
+        }
+
+        val btnProfile = findViewById<ImageButton>(R.id.btnProfile)
+        btnProfile.setOnClickListener {
+
+            val intent = Intent(this, ProfileUI::class.java)
+            startActivity(intent)
+        }
 
     }
 }

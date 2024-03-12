@@ -22,13 +22,13 @@
             android:name=".ProfileUI"
             android:exported="false" />
         <activity
-            android:name=".OnboardingUI"
-            android:exported="false" />
-        <activity
             android:name=".LoginUI"
             android:exported="false" />
         <activity
             android:name=".HomeUI"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingUI"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

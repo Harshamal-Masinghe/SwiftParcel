@@ -43,10 +43,11 @@ class ProfileUI : AppCompatActivity() {
 
         val btnlogout = findViewById<Button>(R.id.btnlogout)
         btnlogout.setOnClickListener {
-            val intent = Intent(this, HomeUI::class.java)
+            val intent = Intent(this, LoginUI::class.java)
             startActivity(intent)
         }
 
 
     }
 }
+//change
