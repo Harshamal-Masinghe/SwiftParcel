@@ -46,13 +46,6 @@ class ProfileUI : AppCompatActivity() {
             val intent = Intent(this, NotificationUI::class.java)
             startActivity(intent)
         }
-
-        val btnProfile = findViewById<ImageButton>(R.id.btnProfile)
-        btnProfile.setOnClickListener {
-
-            val intent = Intent(this, ProfileUI::class.java)
-            startActivity(intent)
-        }
     }
 }
 //change

@@ -36,13 +36,6 @@ class HomeUI : AppCompatActivity() {
         }
 
         //navigation bar
-        val btnHome = findViewById<ImageButton>(R.id.btnHome)
-        btnHome.setOnClickListener {
-
-            val intent = Intent(this, HomeUI::class.java)
-            startActivity(intent)
-        }
-
         val btnActivity = findViewById<ImageButton>(R.id.btnActivity)
         btnActivity.setOnClickListener {
 

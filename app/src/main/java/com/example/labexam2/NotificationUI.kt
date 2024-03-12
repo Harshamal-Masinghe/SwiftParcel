@@ -33,13 +33,6 @@ class NotificationUI : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btnNotification = findViewById<ImageButton>(R.id.btnNotification)
-        btnNotification.setOnClickListener {
-
-            val intent = Intent(this, NotificationUI::class.java)
-            startActivity(intent)
-        }
-
         val btnProfile = findViewById<ImageButton>(R.id.btnProfile)
         btnProfile.setOnClickListener {
 

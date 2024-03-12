@@ -47,8 +47,10 @@
     <string name="todo3">TODO</string>
     <string name="todo4">TODO</string>
     <string name="todo5">TODO</string>
+
     <string name="login">LOGIN</string>
     <string name="sign_up">SIGN UP</string>
+
     <string name="talk">You\'re good to go !</string>
     <string name="todo6">TODO</string>
     <string name="todo03">TODO</string>

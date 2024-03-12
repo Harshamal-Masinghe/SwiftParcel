@@ -9,6 +9,26 @@
     android:backgroundTint="@color/primary_color_3"
     tools:context=".HomeUI">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="https://drive.google.com/drive/folders/1BcNBRaPW_HIce-W9AqNRTsL9mhJXeLAM" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button" />
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="500dp"
