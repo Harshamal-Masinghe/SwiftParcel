@@ -36,7 +36,7 @@
     <string name="profile">Profile</string>
     <string name="logout">LOGOUT</string>
 
-    <string name="notification">Notification</string>
+    <string name="notification">Notifications</string>
     <string name="no_message_s_to_show">No message(s) to show</string>
     <string name="key_fetures">Your solution for seamless package delivery. Effortless sending and receiving, mad simple with SwiftParcel</string>
     <string name="wllcome">Wllcome to SwiftParcel</string>
@@ -53,6 +53,10 @@
     <string name="todo6">TODO</string>
     <string name="todo03">TODO</string>
     <string name="todo_text">TODO</string>
+    <string name="your_activities">Your Activities</string>
+    <string name="man02dsc">man02dsc</string>
+    <string name="man03dsc">man03dsc</string>
+    <string name="man04dsc">man04dsc</string>
 
 
 </resources>

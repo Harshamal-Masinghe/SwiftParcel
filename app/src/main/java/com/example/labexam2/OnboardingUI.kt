@@ -27,6 +27,5 @@ class OnboardingUI : AppCompatActivity() {
             val intent = Intent(this, LoginUI::class.java)
             startActivity(intent)
         }
-
     }
 }

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/primary_color_3"
-    tools:context=".NotificationUI">
+    tools:context=".ActivityUI">
 
     <LinearLayout
         android:id="@+id/linearLayout4"
@@ -27,26 +27,18 @@
             android:id="@+id/profileText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/notification"
+            android:text="@string/your_activities"
             android:textAlignment="center"
             android:textColor="@color/accent_color_5"
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/no_message_s_to_show"
-            android:textAlignment="center"
-            android:textColor="@color/accent_color_4" />
-
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageView7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:contentDescription="@string/man03dsc"
-            app:srcCompat="@drawable/man03" />
+            android:contentDescription="@string/man02dsc"
+            app:srcCompat="@drawable/man02" />
 
     </LinearLayout>
 

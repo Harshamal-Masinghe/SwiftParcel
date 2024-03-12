@@ -54,8 +54,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/user"
-                android:contentDescription="@string/todo1" />
+                android:contentDescription="@string/todo1"
+                app:srcCompat="@drawable/user" />
 
             <TextView
                 android:id="@+id/text00"
@@ -79,8 +79,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/email"
-                android:contentDescription="@string/todo2" />
+                android:contentDescription="@string/todo2"
+                app:srcCompat="@drawable/email" />
 
             <TextView
                 android:id="@+id/text01"
@@ -104,8 +104,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/phone"
-                android:contentDescription="@string/todo3" />
+                android:contentDescription="@string/todo3"
+                app:srcCompat="@drawable/phone" />
 
             <TextView
                 android:id="@+id/text02"
@@ -129,8 +129,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/birthday"
-                android:contentDescription="@string/todo4" />
+                android:contentDescription="@string/todo4"
+                app:srcCompat="@drawable/birthday" />
 
             <TextView
                 android:id="@+id/text03"
@@ -154,8 +154,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/gender"
-                android:contentDescription="@string/todo5" />
+                android:contentDescription="@string/todo5"
+                app:srcCompat="@drawable/gender" />
 
             <TextView
                 android:id="@+id/text04"
@@ -166,6 +166,13 @@
                 android:textColor="@color/secondary_color_3"
                 android:textSize="14sp" />
         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/man04dsc"
+            app:srcCompat="@drawable/man04" />
     </LinearLayout>
 
     <LinearLayout
@@ -241,4 +248,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
         app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

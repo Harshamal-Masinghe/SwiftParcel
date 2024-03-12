@@ -19,11 +19,24 @@ class ProfileUI : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val btnlogout = findViewById<Button>(R.id.btnlogout)
+        btnlogout.setOnClickListener {
+            val intent = Intent(this, LoginUI::class.java)
+            startActivity(intent)
+        }
+
         //navigation bar
         val btnHome = findViewById<ImageButton>(R.id.btnHome)
         btnHome.setOnClickListener {
 
             val intent = Intent(this, HomeUI::class.java)
+            startActivity(intent)
+        }
+
+        val btnActivity = findViewById<ImageButton>(R.id.btnActivity)
+        btnActivity.setOnClickListener {
+
+            val intent = Intent(this, ActivityUI::class.java)
             startActivity(intent)
         }
 
@@ -40,14 +53,6 @@ class ProfileUI : AppCompatActivity() {
             val intent = Intent(this, ProfileUI::class.java)
             startActivity(intent)
         }
-
-        val btnlogout = findViewById<Button>(R.id.btnlogout)
-        btnlogout.setOnClickListener {
-            val intent = Intent(this, LoginUI::class.java)
-            startActivity(intent)
-        }
-
-
     }
 }
 //change
